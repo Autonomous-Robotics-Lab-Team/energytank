@@ -1,0 +1,114 @@
+icvs_energy:
+    type: variable_stiffness_controllers/icvs_energy
+    arm_id: panda
+    joint_names:
+        - panda_joint1
+        - panda_joint2
+        - panda_joint3
+        - panda_joint4
+        - panda_joint5
+        - panda_joint6
+        - panda_joint7
+
+icvs_energy:
+    type: variable_stiffness_controllers/icvs_energy
+    arm_id: panda
+    joint_names:
+        - panda_joint1
+        - panda_joint2
+        - panda_joint3
+        - panda_joint4
+        - panda_joint5
+        - panda_joint6
+        - panda_joint7
+    xt: 5
+    kc: 600.0
+    kt: 0
+    ktmax: 1000.0
+    ktmin: 10.0
+    min_tank_level: 2
+    max_tank_level: 100
+    sigma: 1.0
+    lambda: 0.001
+
+    # xt: 3.2
+    # kc: 100.0
+    # kt: 0
+    # ktmax: 1000.0
+    # ktmin: 10.0
+    # min_tank_level: 0.01
+    # max_tank_level: 6
+    # sigma: 1.0
+    # lambda: 0
+
+
+
+    # xt: 2.7
+    # kc: 300.0
+    # kt: 0
+    # ktmax: 1000.0
+    # ktmin: 10.0
+    # min_tank_level: 2
+    # max_tank_level: 50
+    # sigma: 1.0
+    # lambda: 0.1
+
+# A1
+    # xt: 0.6
+    # kc: 300.0
+    # kt: 0
+    # ktmax: 1000.0
+    # ktmin: 10.0
+    # min_tank_level: 0.15
+    # max_tank_level: 10
+    # sigma: 1.0
+    # lambda: 0.015
+   
+
+
+    # # A2
+    # xt: 1.1
+    # kc: 800.0
+    # kt: 0
+    # ktmax: 1000.0
+    # ktmin: 10.0
+    # min_tank_level: 0.5
+    # max_tank_level: 10
+    # sigma: 1.0
+    # lambda: 0.1
+
+#  # B1
+    # xt: 8
+    # kc: 800.0
+    # kt: 0
+    # ktmax: 1000.0
+    # ktmin: 10.0
+    # min_tank_level: 0.5
+    # max_tank_level: 35
+    # sigma: 1.0
+    # lambda: 0.01
+#     lambda: 0.2
+#     lambda: 0.5
+#     lambda: 0.8
+
+# # B2
+#     xt: 1.1
+#     kc: 800.0
+#     kt: 0
+#     ktmax: 1000.0
+#     ktmin: 10.0
+#     min_tank_level: 0.5
+#     max_tank_level: 10
+#     sigma: 0.1
+#     lambda: 0.1
+
+   
+    # xt: 20.0
+    # kc: 800.0
+    # kt: 0
+    # ktmax: 1000.0
+    # ktmin: 10.0
+    # min_tank_level: 2
+    # max_tank_level: 50
+    # sigma: 1.0
+    # lambda: 0.1     

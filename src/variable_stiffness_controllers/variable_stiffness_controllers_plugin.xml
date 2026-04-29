@@ -1,0 +1,12 @@
+<library path="lib/libvariable_stiffness_controllers">
+  <class name="variable_stiffness_controllers/Calculate_torque" type="variable_stiffness_controllers::Calculate_torque" base_class_type="controller_interface::ControllerBase">
+    <description>
+      A standardimpedance EMG control with Dynamical Systems. 
+    </description>
+  <class name="variable_stiffness_controllers/icvs_energy" type="variable_stiffness_controllers::icvs_energy" base_class_type="controller_interface::ControllerBase">
+    <description>
+      A standardimpedance EMG control with Dynamical Systems. 
+    </description>
+  </class>
+
+</library>
